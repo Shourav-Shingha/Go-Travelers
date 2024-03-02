@@ -57,7 +57,7 @@ header span {
 .banner {
   /* width: auto; */
   height: 85vh;
-  background-image: url(./Images/Group\13\\(1\)\\(1\).png);
+  background-image: url(./Images/group13.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
@@ -218,19 +218,19 @@ header span {
 /* destination section end */
 /* Choose Us section start */
 .choose-us {
-  margin-top: 2rem ;
+  margin-top: 2rem;
 }
-.choose-us-text{
+.choose-us-text {
   width: 30rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.choose-us-text h3{
+.choose-us-text h3 {
   font-size: x-large;
 }
-.cart{
+.cart {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -242,12 +242,12 @@ header span {
 }
 .first-cart svg,
 .second-cart svg,
-.third-cart svg{
+.third-cart svg {
   width: 3rem;
 }
 .first-cart,
 .second-cart,
-.third-cart{
+.third-cart {
   width: 35rem;
   height: 15rem;
   background-color: rgb(253, 212, 250);
@@ -257,12 +257,12 @@ header span {
 .choose-us-text p,
 .first-cart p,
 .second-cart p,
-.third-cart p{
-  font-size:small;
+.third-cart p {
+  font-size: small;
   font-weight: 400;
   color: rgb(124, 123, 123);
 }
-.second-cart{
+.second-cart {
   background-color: bisque;
 }
 .third-cart {
@@ -271,17 +271,38 @@ header span {
 }
 /* Choose Us section end */
 /* lost section start */
-
+.lost {
+  display: flex;
+  gap: 4rem;
+  line-height: 1.9rem;
+  margin-top: 3rem;
+}
+.lost-text h3 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+.lost-text p {
+  font-size: small;
+  font-weight: 400;
+  color: rgb(124, 123, 123);
+}
+.lost-video iframe {
+  border-radius: 20px;
+}
 /* lost section end */
+/* Newsletter section start */
+
+/* Newsletter section end */
 
 /* responsive */
 /* nav responsive */
 @media screen and (max-width: 600px) {
+  .lost,
   .nav,
   .nav-item ul,
   .input-item,
-  .tour, 
-  .cart{
+  .tour,
+  .cart {
     flex-direction: column;
   }
   .nav-item {
@@ -323,7 +344,8 @@ header span {
     margin-top: 1rem;
     margin: 0 auto;
   }
-  .tour-writing {
+  .tour-writing,
+  .lost {
     height: auto;
     margin: 0 20px 0 20px;
   }
@@ -398,33 +420,32 @@ header span {
   }
   /* destination section end */
   /* Choose Us section start */
-  .choose-us-text{
+  .choose-us-text {
     width: 20rem;
   }
   .choose-us,
-  .cart{
+  .cart {
     margin: 0 20px 0 20px;
-}
-.cart{
-  margin: 0 20px 0 20px;
-}
-.first-cart,
-.second-cart{
-  width: 100%;
-  height: 20rem;
-  background-color: rgb(253, 212, 250);
-  padding: 1rem;
-  border-radius: 10px;
-}
-.second-cart{
-  background-color: bisque;
-}
-.third-cart{
-  width: 93%;
-}
+  }
+  .cart {
+    margin: 0 20px 0 20px;
+  }
+  .first-cart,
+  .second-cart {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(253, 212, 250);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .second-cart {
+    background-color: bisque;
+  }
+  .third-cart {
+    width: 93%;
+  }
   /* Choose Us section end */
 
-  /* lost section start */
-
-/* lost section end */
+  /* Newsletter section start */
+  /* Newsletter section end */
 }
