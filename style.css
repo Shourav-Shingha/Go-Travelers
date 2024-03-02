@@ -7,6 +7,15 @@ body{
   margin: 0 auto;
   background-color: white;
 }
+.btn-primary{
+  width: 7rem;
+  height: 2rem;
+  background-color: darkorange;
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  font-weight: 700;
+}
 /* nav section start */
 header span {
   color: darkorange;
@@ -20,7 +29,6 @@ header span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  border: 1px solid red;
 }
 .logo h3{
   width: 8rem;
@@ -46,5 +54,84 @@ header span {
 }
 /* nav section end */
 /* hero section start */
-
+.banner{
+  /* width: auto; */
+  height: 85vh;
+  background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner h2 {
+  font-size: 5rem;
+  color: white;
+  margin: 0%;
+}
+.banner p{
+  color: white;
+  margin: 0%;
+}
+.input-item{
+  /* background-color: aliceblue; */
+  /* width: 20rem; */
+  background-opacity:0.5 ;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.input{
+  width: 7rem;
+  height: 2rem;
+  color: white;
+  border-radius: .5rem;
+  border: none;
+  padding-left: 10px;
+  box-shadow: azure;
+}
 /* hero section end */
+/* responsive */
+/* nav responsive */
+@media screen and (max-width:600px) {
+  .nav,
+  .nav-item ul,
+  .input-item{
+    flex-direction: column;
+  }
+.nav-item {
+  background-color: rgb(246, 225, 255);
+  width: 100%;
+  margin: 0 auto;
+}
+.banner{
+  height:130vh;
+  background-position: center;
+}
+.banner h2{
+  font-size: 2rem;
+}
+.banner p{
+  width: 16rem;
+}
+.input{
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  border-radius: .5rem;
+  border: none;
+  padding-left: 10px;
+  box-shadow: azure;
+}
+.input-item{
+  margin-top: 0%;
+}
+.btn-primary{
+  width: 10rem;
+  height: 3rem;
+}
+}
