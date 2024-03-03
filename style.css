@@ -28,7 +28,7 @@ header span {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap:1rem;
 }
 .logo h3 {
   width: 8rem;
@@ -240,6 +240,7 @@ header span {
   margin: 0 auto;
   margin-top: 1rem;
 }
+.logo svg,
 .first-cart svg,
 .second-cart svg,
 .third-cart svg {
@@ -322,6 +323,8 @@ header span {
 .newsletter-text hr{
   width: 90%;
   margin-bottom: 20px;
+  background-color: #000;
+  border: 1px solid
 
 }
 .input-container{
@@ -358,6 +361,25 @@ header span {
 width: 100%;
 }
 /* Newsletter section end */
+/* footer section start */
+
+footer hr{
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9faf6;
+}
+footer span{
+  color: darkorange;
+}
+/* footer section end */
 
 /* responsive */
 /* nav responsive */
@@ -536,10 +558,13 @@ width: 100%;
   margin-bottom: 20px;
 
 }
-.input-container{
-  }
   .newsletter-img img{
     width: 100%;
   }
   /* Newsletter section end */
+  /* footer section start */
+  footer{
+    margin-top: 12rem;
+  }
+/* footer section end */
 }
